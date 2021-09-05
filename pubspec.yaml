@@ -40,6 +40,7 @@ dev_dependencies:
     sdk: flutter
   build_runner:
   json_serializable:
+  freezed:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
