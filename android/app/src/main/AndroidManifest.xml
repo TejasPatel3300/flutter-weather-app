@@ -3,6 +3,8 @@
    <application
         android:label="weather_app"
         android:icon="@mipmap/ic_launcher">
+       
+
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:meta_weather_api/meta_weather_api.dart' hide Weather;
 import 'package:weather_repository/weather_repository.dart';
 

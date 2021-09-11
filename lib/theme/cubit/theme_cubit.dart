@@ -3,7 +3,7 @@ import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:weather_app/weather/weather.dart';
 
 class ThemeCubit extends HydratedCubit<Color> {
-  ThemeCubit(Color state) : super(defaultColor);
+  ThemeCubit() : super(defaultColor);
 
   static const defaultColor = Color(0XFF2196F3);
 
