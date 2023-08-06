@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:weather_app/search/search.dart';
 import 'package:weather_app/settings/ui/settings_page.dart';
 import 'package:weather_app/theme/cubit/theme_cubit.dart';
-import 'package:weather_app/weather/ui/widgets/widgets.dart';
 import 'package:weather_app/weather/weather.dart';
 import 'package:weather_repository/weather_repository.dart';
 

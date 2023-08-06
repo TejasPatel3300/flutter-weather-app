@@ -34,9 +34,7 @@ class WeatherAppScreen extends StatelessWidget {
           theme: ThemeData(
             primaryColor: color,
             appBarTheme: AppBarTheme(
-              textTheme: Theme.of(context).textTheme.copyWith(
-                    headline1: TextStyle(color: Colors.white),
-                  ),
+              toolbarTextStyle: TextStyle(color: Colors.white),
               elevation: 0,
               backgroundColor: color,
               centerTitle: true,
