@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:weather_app/weather/weather.dart';
 
-import 'package:weather_repository/weather_repository.dart'
-    show WeatherCondition;
-
 class WeatherPopulated extends StatelessWidget {
   const WeatherPopulated({
     Key? key,
@@ -35,13 +32,13 @@ class WeatherPopulated extends StatelessWidget {
                   _WeatherIcon(condition: weather.condition),
                   Text(
                     weather.location,
-                    style: theme.textTheme.headline2?.copyWith(
+                    style: theme.textTheme.displayMedium?.copyWith(
                       fontWeight: FontWeight.w200,
                     ),
                   ),
                   Text(
                     weather.formattedTemperature(units),
-                    style: theme.textTheme.headline3?.copyWith(
+                    style: theme.textTheme.displaySmall?.copyWith(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
